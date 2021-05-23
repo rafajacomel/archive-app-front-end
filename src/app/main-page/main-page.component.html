@@ -1,0 +1,46 @@
+<div class="header">
+    <h1>SAR application dashboard</h1>
+</div>
+<div class="page-container">
+    <div class="sidebar">
+        <br>
+        <br>
+        <a routerLink="/archive-tool" routerLinkActive="selected" class="list-item">
+            <i class="material-icons">done</i>
+            Archive tool
+        </a>
+        <br>
+        <br>
+        <a routerLink="/publish-fix" routerLinkActive="selected" class="list-item">
+            <i class="material-icons">dangerous</i>
+            Publish fix monitoring
+        </a>
+        <br>
+        <br>
+        <a routerLink="/myna"  routerLinkActive="selected" class="list-item">
+            <i class="material-icons">done</i>
+            Myna monitoring
+        </a>
+        <br>
+        <br>
+        <a routerLink="/xarc"  routerLinkActive="selected" class="list-item">
+            <i class="material-icons">done</i>
+            Xarc monitoring
+        </a>
+        <br>
+        <br>
+        <a routerLink="/dblues" routerLinkActive="selected" class="list-item">
+            <i class="material-icons">done</i>
+            Dblues monitoring
+        </a>
+        <br>
+        <br>
+        <a routerLink="/radar" routerLinkActive="selected" class="list-item">
+            <i class="material-icons">dangerous</i>
+            Radar monitoring
+        </a>
+    </div>
+    <div class="page-content-container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
