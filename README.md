@@ -1,4 +1,5 @@
 # ArchiveAppFrontEnd
+This is a MVP develop to simulate an archive tool. We use Python and Django as a backend and Angular as a front end. This repository is related to front end and it was wrote in angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
 

@@ -10,6 +10,11 @@ import { MynaComponent } from './myna/myna.component';
 import { XarcComponent } from './xarc/xarc.component';
 import { DbluesComponent } from './dblues/dblues.component';
 import { RadarComponent } from './radar/radar.component';
+import { ApiService } from './api.service';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -24,9 +29,15 @@ import { RadarComponent } from './radar/radar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    DragDropModule,
+    MatTooltipModule
   ],
-  providers: [],
+  providers: [
+    ApiService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

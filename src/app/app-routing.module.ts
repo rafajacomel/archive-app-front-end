@@ -7,6 +7,7 @@ import { MynaComponent } from './myna/myna.component';
 import { PublishFixComponent } from './publish-fix/publish-fix.component';
 import { RadarComponent } from './radar/radar.component';
 import { XarcComponent } from './xarc/xarc.component';
+import { ApiService} from './api.service';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent, children: [

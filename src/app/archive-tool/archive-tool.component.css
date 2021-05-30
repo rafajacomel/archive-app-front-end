@@ -1,0 +1,29 @@
+.container {
+    padding-left: 200;
+}
+
+.header {
+    color: rgb(82, 255, 47);
+    width: 100%;
+}
+
+.archived {
+    color: rgb(82, 255, 47);
+    background-color: black;
+}
+
+.buttonArchive {
+    color: rgb(82, 255, 47);
+    background-color: black;
+    width: 400;
+    height: 50;
+}
+
+.not_archived {
+    color: rgb(255, 47, 47);
+    background-color: black;
+}
+
+::ng-deep .cdk-overlay-container, .cdk-global-overlay-wrapper {
+    white-space: pre-line;
+  }
